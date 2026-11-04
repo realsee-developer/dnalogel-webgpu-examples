@@ -1,5 +1,5 @@
 {
-  "sourceCommit": "28199bb7f790b7e78d84fef9b77a0c1795702b06",
+  "sourceCommit": "8b7f449cdec9573b050fff9284cf7615917567f3",
   "sourceMergeRequest": "https://git.lianjia.com/vrlab_frontend/sdk/dnalogel-webgpu/-/merge_requests/12",
   "version": "4.0.0-webgpu.16",
   "examples": [
