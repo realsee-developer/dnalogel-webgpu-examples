@@ -1,0 +1,241 @@
+{
+  "allow_hosts": [
+    "rs.test.com"
+  ],
+  "expire_at": "2107252342851",
+  "code": "Kodr99aKLPCrYjGtrm",
+  "name": "全景视频test",
+  "base_url": "https://vrlab-public.ljcdn.com/release/auto3dhd/47736ff21eaf18995375793c796b7cf2/",
+  "initial": {
+    "mode": "Panorama",
+    "pano_index": 0,
+    "longitude": 0,
+    "latitude": 0,
+    "fov": 90
+  },
+  "model": {
+    "file_url": "model/fcf58df0adeb50ba9d50259440f5bccf/auto3d-light-41DjM6EEmBw2qlzG-copy.at3d",
+    "material_base_url": "materials/fcf58df0adeb50ba9d50259440f5bccf/",
+    "material_textures": [
+      "texture_0.jpg",
+      "texture_1.jpg",
+      "texture_2.jpg",
+      "texture_3.jpg"
+    ],
+    "layers": [
+      {
+        "tileset_url": "mesh/8e86e34866b51e3bc3318ccd24ecfb32/tileset.json",
+        "up_axis": "Z",
+        "name": "galois",
+        "type": "mesh"
+      }
+    ]
+  },
+  "observers": [
+    {
+      "index": 0,
+      "derived_id": 1768634556,
+      "derived_id_str": "1768634556",
+      "floor_index": 0,
+      "position": [
+        -0.0293906787,
+        0.0200725978,
+        -0.0258020604
+      ],
+      "standing_position": [
+        -0.0293906787,
+        -1.1911310965435669,
+        -0.0258020604
+      ],
+      "quaternion": {
+        "x": 0.004113622328140997,
+        "y": -0.9996762942750261,
+        "z": 0.004231442442187786,
+        "w": -0.02474832662527086
+      },
+      "visible_nodes": [
+        1,
+        2,
+        3
+      ],
+      "accessible_nodes": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "index": 1,
+      "derived_id": 1768634602,
+      "derived_id_str": "1768634602",
+      "floor_index": 0,
+      "position": [
+        0.3969001886,
+        0.0097557075,
+        -4.0126122621
+      ],
+      "standing_position": [
+        0.3969001886,
+        -1.194023155453186,
+        -4.0126122621
+      ],
+      "quaternion": {
+        "x": 0.005455016372264395,
+        "y": -0.9823068959685887,
+        "z": 0.00517253288757778,
+        "w": 0.18712736259687301
+      },
+      "visible_nodes": [
+        0,
+        2,
+        3
+      ],
+      "accessible_nodes": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "index": 2,
+      "derived_id": 1768634658,
+      "derived_id_str": "1768634658",
+      "floor_index": 0,
+      "position": [
+        0.4956700104,
+        0.0134424305,
+        -7.0701672373
+      ],
+      "standing_position": [
+        0.4956700104,
+        -1.1956768894157714,
+        -7.0701672373
+      ],
+      "quaternion": {
+        "x": 0.001995574545744662,
+        "y": -0.9469163299480526,
+        "z": 0.0025949789303216305,
+        "w": 0.32146344713558683
+      },
+      "visible_nodes": [
+        0,
+        1,
+        3
+      ],
+      "accessible_nodes": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "index": 3,
+      "derived_id": 1768634710,
+      "derived_id_str": "1768634710",
+      "floor_index": 0,
+      "position": [
+        0.4920540212,
+        0.0073386411,
+        -11.2179556133
+      ],
+      "standing_position": [
+        0.4920540212,
+        -1.199057819433142,
+        -11.2179556133
+      ],
+      "quaternion": {
+        "x": 0.0053283562387194,
+        "y": -0.8716556133009224,
+        "z": -0.0010185893791995182,
+        "w": 0.49008883163816597
+      },
+      "visible_nodes": [
+        0,
+        1,
+        2
+      ],
+      "accessible_nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "panorama": {
+    "count": 4,
+    "list": [
+      {
+        "index": 0,
+        "active": true,
+        "loadable": false,
+        "derived_id": 1768634556,
+        "derived_id_str": "1768634556",
+        "size_list": [
+          2048,
+          6144
+        ],
+        "up": "images/cube_2048/0/c19af9f6206567f3250094ee6824f768/0_u.jpg",
+        "down": "images/cube_2048/0/c19af9f6206567f3250094ee6824f768/0_d.jpg",
+        "right": "images/cube_2048/0/c19af9f6206567f3250094ee6824f768/0_r.jpg",
+        "left": "images/cube_2048/0/c19af9f6206567f3250094ee6824f768/0_l.jpg",
+        "front": "images/cube_2048/0/c19af9f6206567f3250094ee6824f768/0_f.jpg",
+        "back": "images/cube_2048/0/c19af9f6206567f3250094ee6824f768/0_b.jpg",
+        "hdr": false
+      },
+      {
+        "index": 1,
+        "active": true,
+        "loadable": false,
+        "derived_id": 1768634602,
+        "derived_id_str": "1768634602",
+        "size_list": [
+          2048,
+          6144
+        ],
+        "up": "images/cube_2048/1/e3cc394bba64a7d155fe762519b5a883/1_u.jpg",
+        "down": "images/cube_2048/1/e3cc394bba64a7d155fe762519b5a883/1_d.jpg",
+        "right": "images/cube_2048/1/e3cc394bba64a7d155fe762519b5a883/1_r.jpg",
+        "left": "images/cube_2048/1/e3cc394bba64a7d155fe762519b5a883/1_l.jpg",
+        "front": "images/cube_2048/1/e3cc394bba64a7d155fe762519b5a883/1_f.jpg",
+        "back": "images/cube_2048/1/e3cc394bba64a7d155fe762519b5a883/1_b.jpg",
+        "hdr": false
+      },
+      {
+        "index": 2,
+        "active": true,
+        "loadable": false,
+        "derived_id": 1768634658,
+        "derived_id_str": "1768634658",
+        "size_list": [
+          2048,
+          6144
+        ],
+        "up": "images/cube_2048/2/b9479b90be9c052896a30effb31595f8/2_u.jpg",
+        "down": "images/cube_2048/2/b9479b90be9c052896a30effb31595f8/2_d.jpg",
+        "right": "images/cube_2048/2/b9479b90be9c052896a30effb31595f8/2_r.jpg",
+        "left": "images/cube_2048/2/b9479b90be9c052896a30effb31595f8/2_l.jpg",
+        "front": "images/cube_2048/2/b9479b90be9c052896a30effb31595f8/2_f.jpg",
+        "back": "images/cube_2048/2/b9479b90be9c052896a30effb31595f8/2_b.jpg",
+        "hdr": false
+      },
+      {
+        "index": 3,
+        "active": true,
+        "loadable": false,
+        "derived_id": 1768634710,
+        "derived_id_str": "1768634710",
+        "size_list": [
+          2048,
+          6144
+        ],
+        "up": "images/cube_2048/3/f4449c9565c803580c5a8c96a0162cb5/3_u.jpg",
+        "down": "images/cube_2048/3/f4449c9565c803580c5a8c96a0162cb5/3_d.jpg",
+        "right": "images/cube_2048/3/f4449c9565c803580c5a8c96a0162cb5/3_r.jpg",
+        "left": "images/cube_2048/3/f4449c9565c803580c5a8c96a0162cb5/3_l.jpg",
+        "front": "images/cube_2048/3/f4449c9565c803580c5a8c96a0162cb5/3_f.jpg",
+        "back": "images/cube_2048/3/f4449c9565c803580c5a8c96a0162cb5/3_b.jpg",
+        "hdr": false
+      }
+    ]
+  }
+}
